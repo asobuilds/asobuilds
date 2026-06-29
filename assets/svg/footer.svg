@@ -1,0 +1,41 @@
+<svg viewBox="0 0 900 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer">
+  <defs>
+    <linearGradient id="footer-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="footer-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#10B981" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.4"/>
+      <stop offset="75%" stop-color="#F43F5E" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="80" rx="12" fill="url(#footer-bg)"/>
+  <rect x="1" y="1" width="898" height="78" rx="11" fill="none" stroke="#1E293B" stroke-width="0.8"/>
+
+  <!-- Top divider line -->
+  <line x1="50" y1="1" x2="850" y2="1" stroke="url(#footer-line)" stroke-width="1.5"/>
+
+  <!-- Left: terminal prompt -->
+  <text x="32" y="36" font-family="'Courier New', monospace" font-size="11" fill="#10B981" opacity="0.8">~/asobuilds ❯</text>
+  <text x="130" y="36" font-family="'Courier New', monospace" font-size="11" fill="#475569">echo "building tomorrow, today"</text>
+
+  <!-- Center: name -->
+  <text x="450" y="46" font-family="'Courier New', monospace" font-size="10" fill="#334155" text-anchor="middle">
+    ASO BUILDS · 2025
+  </text>
+
+  <!-- Right: links -->
+  <text x="868" y="36" font-family="'Courier New', monospace" font-size="10" fill="#475569" text-anchor="end">
+    <tspan fill="#10B981">github</tspan> · <tspan fill="#F43F5E">x</tspan> · <tspan fill="#6366F1">linkedin</tspan>
+  </text>
+
+  <!-- Cursor -->
+  <rect x="340" y="25" width="5" height="11" fill="#10B981" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
