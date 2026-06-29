@@ -3,7 +3,13 @@
 ![ASO BUILDS Hero](./assets/svg/hero.svg)
 
 </div>
+<br/>
 
+<div align="center">
+    
+![Profile Views](https://komarev.com/ghpvc/?username=asobuilds&color=brightgreen)
+
+</div>
 <br/>
 
 <div align="center">
@@ -20,7 +26,7 @@
 
 <br/>
 
-## `> whoami`
+### `> whoami`
 
 ```go
 package main
@@ -54,23 +60,23 @@ func main() {
 
 <br/>
 
-## `> cat current_focus.md`
+### `> cat current_focus.md`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔬 What I'm Building
+### What I'm Building
 
-- **AI/ML systems** — autonomous agents, inference pipelines, intelligent tooling
-- **Go backends** — performant, concurrent, production-grade services
-- **9ja Exam Hub** — AI-powered exam preparation platform for Nigerian students
+- **AI/ML systems**: autonomous agents, inference pipelines, intelligent tooling
+- **Go backends**: performant, concurrent, production-grade services
+- **9ja Exam Hub**: AI-powered exam preparation platform for Nigerian students
 - Exploring **Rust** for systems-level performance engineering
 
 </td>
 <td width="50%" valign="top">
 
-### 📡 What I'm Learning
+### What I'm Learning
 
 - Large Language Model architecture and fine-tuning
 - Retrieval-Augmented Generation (RAG) patterns
@@ -88,9 +94,9 @@ func main() {
 
 <br/>
 
-## `> ls -la philosophy/`
+### `> ls -la philosophy/`
 
-> *I believe software should create real leverage — one engineer, one system, multiplied impact. I write code that is maintainable before it is clever, observable before it is fast, and useful before it is elegant. I build in the open because the best ideas survive scrutiny.*
+> *I believe software should create real leverage  one engineer, one system, multiplied impact. I write code that is maintainable before it is clever, observable before it is fast, and useful before it is elegant. I build in the open because the best ideas survive scrutiny.*
 
 <br/>
 
@@ -108,7 +114,7 @@ func main() {
 
 <br/>
 
-## `> ls projects/featured/`
+### `> ls projects/featured/`
 
 <br/>
 
@@ -116,13 +122,13 @@ func main() {
 <tr>
 <td width="100%" valign="top">
 
-### 🎓 9ja Exam Hub
+### 9ja Exam Hub
 
 > AI-powered exam preparation platform built for Nigerian students and institutions.
 
-**Architecture** — Go backend · REST API · AI inference layer · Web frontend
+**Architecture**: Go backend · REST API · AI inference layer · Web frontend
 
-**Stack** — `Go` `Python` `HTML` `CSS` `JavaScript`
+**Stack**: `Go` `Python` `HTML` `CSS` `JavaScript`
 
 **What it does**
 - Serves intelligent, adaptive practice questions
@@ -130,11 +136,11 @@ func main() {
 - Built specifically for the Nigerian curriculum and exam formats
 - Designed to be accessible on low-bandwidth connections
 
-**Engineering Challenge** — Building an AI inference pipeline that performs reliably on constrained infrastructure, serving users across Nigeria where connectivity is inconsistent.
+**Engineering Challenge**: Building an AI inference pipeline that performs reliably on constrained infrastructure, serving users across Nigeria where connectivity is inconsistent.
 
-**Status** — `Active Development`
+**Status** : `Active Development`
 
-[![View Repo](https://img.shields.io/badge/View_Repository-0F172A?style=flat-square&logo=github&logoColor=10B981)](https://github.com/Asobuilds)
+[![View Repo](https://img.shields.io/badge/View_Repository-0F172A?style=flat-square&logo=github&logoColor=10B981)]([https://github.com/Asobuilds](https://github.com/asobuilds/naijaExam_hub))
 
 </td>
 </tr>
@@ -144,13 +150,13 @@ func main() {
 <tr>
 <td width="100%" valign="top">
 
-### 🖥️ L2E CodeStudy Platform
+### L2E CodeStudy Platform
 
 > Community learning platform built for the Learn2Earn Nigeria Fellowship, serving student developers across campuses.
 
-**Architecture** — Go web server · Static asset serving · Piston API integration · REST
+**Architecture**: Go web server · Static asset serving · Piston API integration · REST
 
-**Stack** — `Go` `HTML` `CSS` `JavaScript`
+**Stack**: `Go` `HTML` `CSS` `JavaScript`
 
 **What it does**
 - Four progressive learning stages with randomized questions
@@ -158,11 +164,11 @@ func main() {
 - Hint systems, progress tracking, confetti rewards
 - Dark-mode dashboard with persistent theme preference
 
-**Engineering Challenge** — Designing a real code-execution sandbox that is safe, fast, and accessible to student developers with no backend experience.
+**Engineering Challenge**: Designing a real code-execution sandbox that is safe, fast, and accessible to student developers with no backend experience.
 
-**Lesson Learned** — Product thinking matters as much as engineering. The confetti and progress bars weren't decoration — they drove completion rates up significantly.
+**Lesson Learned**: Product thinking matters as much as engineering. The confetti and progress bars weren't decoration they drove completion rates up significantly.
 
-[![View Repo](https://img.shields.io/badge/View_Repository-0F172A?style=flat-square&logo=github&logoColor=10B981)](https://github.com/Aso07/l2e-codestudy-platform)
+[![View Repo](https://img.shields.io/badge/View_Repository-0F172A?style=flat-square&logo=github&logoColor=10B981)](https://github.com/asobuilds/l2e-codestudy-platform)
 
 </td>
 </tr>
@@ -172,13 +178,13 @@ func main() {
 <tr>
 <td width="100%" valign="top">
 
-### 🎨 ASCII Art Engine
+### ASCII Art Engine
 
-> Full CLI tool for rendering styled ASCII art from text — built from scratch without external art libraries.
+> Full CLI tool for rendering styled ASCII art from text built from scratch without external art libraries.
 
-**Architecture** — Go module · Internal package structure · Banner file parsing · ANSI terminal output
+**Architecture**: Go module · Internal package structure · Banner file parsing · ANSI terminal output
 
-**Stack** — `Go`
+**Stack**: `Go`
 
 **What it does**
 - Renders text into styled ASCII art using bitmap font banner files
@@ -187,9 +193,9 @@ func main() {
 - `--align=<type>` terminal alignment with ANSI-aware visible width calculation
 - Full test suite per function
 
-**Engineering Detail** — The banner lookup formula `(asciiValue - 32) * 9 + 1` encodes the entire character map. Getting row-by-row rendering and ANSI-stripped width calculations right required careful systems thinking.
+**Engineering Detail**: The banner lookup formula `(asciiValue - 32) * 9 + 1` encodes the entire character map. Getting row-by-row rendering and ANSI-stripped width calculations right required careful systems thinking.
 
-[![View Repo](https://img.shields.io/badge/View_Repository-0F172A?style=flat-square&logo=github&logoColor=10B981)](https://github.com/Asobuilds)
+[![View Repo](https://img.shields.io/badge/View_Repository-0F172A?style=flat-square&logo=github&logoColor=10B981)](https://github.com/asobuilds/Ascii-Art)
 
 </td>
 </tr>
@@ -201,7 +207,7 @@ func main() {
 
 <br/>
 
-## `> cat stack.json`
+### `> cat stack.json`
 
 <br/>
 
@@ -237,18 +243,18 @@ func main() {
 
 <br/>
 
-## `> ./stats --profile`
+### `> ./stats --profile`
 
 <br/>
 
+<h3 align="center">GitHub Stats & Streak</h3>
+<br/>
 <div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Asobuilds&show_icons=true&theme=transparent&hide_border=true&title_color=10B981&icon_color=F43F5E&text_color=94A3B8&bg_color=0F172A)](https://github.com/Asobuilds)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Asobuilds&layout=compact&theme=transparent&hide_border=true&title_color=10B981&text_color=94A3B8&bg_color=0F172A)](https://github.com/Asobuilds)
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Asobuilds&theme=transparent&hide_border=true&ring=10B981&fire=F43F5E&currStreakLabel=6366F1&sideLabels=94A3B8&dates=475569)](https://github.com/Asobuilds)
-
+  <img height="165px" src="https://github-readme-streak-stats.herokuapp.com/?user=Asobuilds&theme=radical&hide_border=true&background=0D1117&ring=10B981&fire=F43F5E&currStreakLabel=10B981" />
+</div>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Asobuilds&show_icons=true&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=F43F5E&text_color=94A3B8&border_radius=14" width="48%" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asobuilds&layout=compact&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=94A3B8&border_radius=14" width="38%" alt="Top Languages"/>
 </div>
 
 <br/>
@@ -257,39 +263,7 @@ func main() {
 
 <br/>
 
-## `> cat open_source.md`
-
-I believe in building in public and giving back to the communities that taught me. Open source is how individual engineers create disproportionate impact.
-
-- **L2E CodeStudy Platform** — open-sourced for any fellowship or cohort to fork and adapt
-- **ASCII Art Engine** — fully documented, tested, and modular for reuse
-- Actively looking to contribute to Go tooling, AI infrastructure, and African tech projects
-
-> *If you maintain an open-source project in Go, Rust, or AI/ML and are looking for a focused contributor — reach out.*
-
-<br/>
-
-![Divider](./assets/svg/divider.svg)
-
-<br/>
-
-## `> cat community.md`
-
-**Learn2Earn Nigeria Fellowship** — Otukpo Campus
-Building tools and projects that benefit the fellowship community directly. The L2E CodeStudy Platform was built specifically to improve learning outcomes for fellow students.
-
-Currently growing toward:
-- Speaking at African tech communities about Go and AI engineering
-- Writing technical content on building AI systems with Go
-- Mentoring newer developers entering the fellowship
-
-<br/>
-
-![Divider](./assets/svg/divider.svg)
-
-<br/>
-
-## `> contact --open`
+### `> contact --open`
 
 <div align="center">
 
@@ -297,7 +271,7 @@ I'm open to conversations about **AI/ML engineering roles**, **Go/Rust contribut
 
 <br/>
 
-[![Send Email](https://img.shields.io/badge/Email_Me-0F172A?style=for-the-badge&logo=gmail&logoColor=F43F5E)](mailto:your-email@example.com)
+[![Send Email](https://img.shields.io/badge/Email_Me-0F172A?style=for-the-badge&logo=gmail&logoColor=F43F5E)](mailto:agenesunday143@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=10B981)](https://www.linkedin.com/in/agene-sunday-4b35702aa)
 [![X / Twitter](https://img.shields.io/badge/X_(Twitter)-0F172A?style=for-the-badge&logo=x&logoColor=94A3B8)](https://x.com/Asobuilds)
 
