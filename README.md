@@ -1,11 +1,13 @@
+<!-- FLAGSHIP ARCHITECTURE HEADER -->
 <p align="center">
   <img src="assets/svg/hero.svg" width="100%" alt="Agene Sunday Okoh // Systems Architect" />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com" target="_blank"><img src="https://shields.io" /></a>
-  <a href="https://github.com/asobuilds" target="_blank"><img src="https://shields.io" /></a>
-  <a href="mailto:contact@asobuilds.com"><img src="https://shields.io" /></a>
+  <a href="https://linkedin.com" target="_blank"><img src="https://shields.io" height="24" /></a>&nbsp;
+  <a href="https://github.com" target="_blank"><img src="https://shields.io" height="24" /></a>&nbsp;
+  <a href="mailto:contact@asobuilds.com"><img src="https://shields.io" height="24" /></a>&nbsp;
+  <a href="https://github.com/asobuilds/blob/main/Agene_Sunday_Okoh_Resume.pdf" target="_blank"><img src="https://shields.io" height="24" /></a>
 </p>
 
 ---
@@ -42,6 +44,21 @@ func main() {
 ## 🛡️ Flagship Project Matrix: Nativity Guard
 > **Enterprise Civic Safety Infrastructure for Constrained Networks**
 
+Use code with caution.
+[ Citizen SOS Client ] ➔ ➔ ( SHA-256 Content-Addressed Chunking )
+│
+┌──────────────────────────────┴──────────────────────────────┐
+▼ ( Low-Bandwidth Optimizations )                              ▼ ( Strict Compliance )
+[ Redis Cache-Aside ]                                      [ Server-Derived Geocoder ]
+• Scoped Community Feeds                                   - Enforces 5-tier Hierarchy
+• VAPID Web Push Alerts                                    - Rejects Spatially Spoofed Strings
+│                                                             │
+└──────────────────────────────┬──────────────────────────────┘
+▼
+[ PostgreSQL / GORM Engine ]
+- Multi-Admin Case Approvals
+- AES-GCM Financial Encryption
+
 | Core Engine | Sub-System Focus | Production Milestones |
 | :--- | :--- | :--- |
 | **Go / Gin Backend** | Content-Addressed Media Pipeline | Automated SHA-256 asset hashing prevents duplicate file streams and optimizes remote bucket storage using reference-counted structural cleanup. |
@@ -51,7 +68,7 @@ func main() {
 
 <p align="left">
   <a href="https://github.com" target="_blank">
-    <img src="https://shields.io" />
+    <img src="https://shields.io" height="35" />
   </a>
 </p>
 
@@ -62,16 +79,16 @@ func main() {
 ## 🌌 Commercial Client Deployments & Creative Studios
 
 ### 💰 SAGZFX Academy Digital Platform
-* **Operational Scope:** Enterprise portal for an active financial trading campus (RC 8064497).
-* **Stack:** FastAPI (Python 3.12) · Next.js 16 (TypeScript) · Serverless Neon PostgreSQL · Paystack API Ingestion
-* **Core Win:** Engineered an isolated, ledger-audited $10,000 virtual foreign exchange mock trading simulator running atop concurrent secure transactional balancing states.
-* **Explore Infrastructure:** [SAGZFX Platform Repository](https://github.com)
+* `SCOPE:` Enterprise portal for an active financial trading campus **(RC 8064497)**.
+* `STACK:` FastAPI (Python 3.12) · Next.js 16 (TypeScript) · Serverless Neon PostgreSQL · Paystack API Ingestion
+* `METRIC:` Engineered an isolated, ledger-audited $10,000 virtual foreign exchange mock trading simulator running atop concurrent secure transactional balancing states.
+* `EXPLORE:` [SAGZFX Platform Repository](https://github.com)
 
 ### 🎨 9jaWonderPal (My Creative Partner)
-* **Operational Scope:** Voice-first creative runtime environment converting spoken natural language into live render spaces.
-* **Stack:** Node.js WebSockets · React 19 Canvas · Headless Blender 4.2 Scripting Pipeline · Multi-Provider LLM Fallback
-* **Core Win:** Developed an automated structural scene builder capable of generating compiled, illuminated 3D objects and environments within 5 to 15 seconds.
-* **Explore Infrastructure:** [9jaWonderPal Repository](https://github.com)
+* `SCOPE:` Voice-first creative runtime environment converting spoken natural language into live render spaces.
+* `STACK:` Node.js WebSockets · React 19 Canvas · Headless Blender 4.2 Scripting Pipeline · Multi-Provider LLM Fallback
+* `METRIC:` Developed an automated structural scene builder capable of generating compiled, illuminated 3D objects and environments within 5 to 15 seconds.
+* `EXPLORE:` [9jaWonderPal Repository](https://github.com)
 
 <p align="center">
   <img src="assets/svg/divider.svg" width="100%" />
@@ -79,9 +96,9 @@ func main() {
 
 ## 🛠️ Secondary Core Foundations & Fellowship Architectures
 
-* **9ja Exam Hub:** Adaptive educational analysis application catering targeted curriculum content specifically designed for low-bandwidth environments.
-* **L2E CodeStudy Platform:** Interactive evaluation environment featuring isolated runtime testing tools built using clean Piston integration hooks.
-* **ASCII Art Engine:** Command-line formatting workspace written entirely from scratch in Go to map terminal parameters manually.
+* `9ja Exam Hub` — Adaptive educational analysis application catering targeted curriculum content specifically designed for low-bandwidth environments.
+* `L2E CodeStudy Platform` — Interactive evaluation environment featuring isolated runtime testing tools built using clean Piston integration hooks.
+* `ASCII Art Engine` — Command-line formatting workspace written entirely from scratch in Go to map terminal parameters manually.
 
 ---
 
