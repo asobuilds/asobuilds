@@ -1,77 +1,111 @@
 <p align="center">
-  <img src="https://vercel.app" width="100%" alt="Agene Sunday Okoh Portfolio Banner" />
+  <img src="assets/svg/hero.svg" width="100%" alt="Agene Sunday Okoh // Systems Architect" />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com" target="_blank"><img src="https://shields.io" alt="LinkedIn" /></a>
-  <a href="https://github.com" target="_blank"><img src="https://shields.io" alt="GitHub" /></a>
-  <a href="mailto:contact@asobuilds.com"><img src="https://shields.io" alt="Email" /></a>
+  <a href="https://linkedin.com" target="_blank"><img src="https://shields.io" /></a>
+  <a href="https://github.com/asobuilds" target="_blank"><img src="https://shields.io" /></a>
+  <a href="mailto:contact@asobuilds.com"><img src="https://shields.io" /></a>
 </p>
 
 ---
 
-## ⚡ Executive Summary: > whoami
+### ⚡ Executive Terminal: > whoami
 
-* **Name:** Agene Sunday Okoh
-* **Role:** AI-Native Software Programmer & Solutions Architect
-* **Focus:** Distributed Systems · Autonomous Agent Pipelines · High-Performance Backends
-* **Philosophy:** Build resilient architecture that yields massive real-world operational leverage.
-* **Location:** Abuja, Nigeria 🇳🇬
+```go
+package main
 
----
+type SolutionsArchitect struct {
+	Name        string   `json:"name"`
+	Role        string   `json:"role"`
+	Location    string   `json:"location"`
+	EngineStack []string `json:"engines"`
+	Philosophy  string   `json:"philosophy"`
+}
 
-## 🛡️ Flagship Project Spotlight: Nativity Guard
-> **Enterprise-Grade Civic Safety Infrastructure for Rural Communities**
-> **Core Architecture:** Go (Gin-Gonic) · Redis Cache-Aside · PostgreSQL (GORM) · React 19 & TypeScript · Docker Compose · OSRM Routing Integration
+func main() {
+	me := SolutionsArchitect{
+		Name:        "Agene Sunday Okoh",
+		Role:        "AI-Native Full-Stack Solutions Engineer",
+		Location:    "Abuja, Nigeria 🇳🇬",
+		EngineStack: []string{"Go", "Rust", "Python", "TypeScript", "Docker", "Redis"},
+		Philosophy:  "Build resilient, production-grade pipelines that deliver absolute leverage.",
+	}
+	me.Deploy()
+}
+```
+
+<p align="center">
+  <img src="assets/svg/divider.svg" width="100%" />
+</p>
+
+## 🛡️ Flagship Project Matrix: Nativity Guard
+> **Enterprise Civic Safety Infrastructure for Constrained Networks**
+
+| Core Engine | Sub-System Focus | Production Milestones |
+| :--- | :--- | :--- |
+| **Go / Gin Backend** | Content-Addressed Media Pipeline | Automated SHA-256 asset hashing prevents duplicate file streams and optimizes remote bucket storage using reference-counted structural cleanup. |
+| **Redis Caching** | Low-Bandwidth Edge Resilience | Configured cache-aside layouts for high-volume geo-scoped feeds to ensure rapid client processing states on slow local networks. |
+| **PostgreSQL / GORM** | Multi-Tier Audit & Governance | Implemented a tamper-proof case lifecycle state machine (`pending` ➔ `closed`) with 12-month staggered election rotation algorithms. |
+| **Security Architecture** | Cryptographic Isolation | Embedded secure military-grade AES-GCM data encryption for banking ledger payloads alongside rigorous reverse-geocoding validation rules. |
 
 <p align="left">
-  <a href="https://github.com/nativity-guard.git" target="_blank"><img src="https://shields.io" alt="Nativity Guard Repo" /></a>
+  <a href="https://github.com" target="_blank">
+    <img src="https://shields.io" />
+  </a>
 </p>
 
-### 🚀 Key Engineering & Infrastructure Milestone Wins
-*   **Media Duplication Avoidance Pipeline:** Implemented an optimized, content-addressed storage layout. Identical voice/video uploads auto-deduplicate via SHA-256 asset hashing, guarded by reference-counting garbage collection to optimize server storage footprint.
-*   **Tamper-Proof Geo-Scoping:** Built an un-spoofable location system where place levels are strictly server-derived via reverse-geocoding coordinates. Client-supplied place strings are rejected, guaranteeing air-tight geospatial integrity.
-*   **High-Volume Real-Time Flow:** Engineered real-time emergency alert dispatches using web push notifications (VAPID webpush-go) combined with a Redis-backed fallback cache layout for rapid server responses on low-bandwidth networks.
-*   **Encrypted Financial Ledgers:** Integrated military-grade AES-GCM data encryption for community ledger bank account routing metadata, matching strict digital banking compliance.
-
----
+<p align="center">
+  <img src="assets/svg/divider.svg" width="100%" />
+</p>
 
 ## 🌌 Commercial Client Deployments & Creative Studios
 
 ### 💰 SAGZFX Academy Digital Platform
-*   **Description:** Fully production-grade web ecosystem shipped for a commercial client campus (RC 8064497).
-*   **Tech Stack:** FastAPI (Python 3.12) · Next.js 16 (TypeScript) · Serverless Neon PostgreSQL · Paystack API.
-*   **Engineering Highlight:** Designed a custom financial transaction parser featuring a $10,000 virtual FX practice simulator with ledger-audited state balance tracking, alongside a secure live Paystack webhook ingestion pipeline.
-*   **Explore:** [SAGZFX Platform Repository](https://github.com/sagzfx-academy-platform.git)
+* **Operational Scope:** Enterprise portal for an active financial trading campus (RC 8064497).
+* **Stack:** FastAPI (Python 3.12) · Next.js 16 (TypeScript) · Serverless Neon PostgreSQL · Paystack API Ingestion
+* **Core Win:** Engineered an isolated, ledger-audited $10,000 virtual foreign exchange mock trading simulator running atop concurrent secure transactional balancing states.
+* **Explore Infrastructure:** [SAGZFX Platform Repository](https://github.com)
 
 ### 🎨 9jaWonderPal (My Creative Partner)
-*   **Description:** A voice-first, interactive creative installation allowing children to voice-prompt concepts into walking 3D worlds.
-*   **Tech Stack:** Node.js WebSocket Server · React (Vite) · Three.js Canvas · Headless Blender 4.2 Rendering Engine.
-*   **Engineering Highlight:** Solved multi-tier LLM failover infrastructure patterns (Groq to OpenRouter) coupled with automated local Blender scripting to compile and stream out full 3D lighting scenes within 5 to 15 seconds.
-*   **Explore:** [9jaWonderPal Repository](https://github.com/my-creative-partner.git)
-
----
-
-## 🛠️ Fellowship Engines & Secondary Implementations
-*   **9ja Exam Hub:** AI-driven adaptive exam testing environment mapped explicitly against the standardized Nigerian academic syllabus and engineered to balance low-bandwidth client queries.
-*   **L2E CodeStudy Platform:** In-browser compilation engine incorporating safe sandbox code executions via external Piston API gateways for peer fellows.
-*   **ASCII Art System Engine:** A native custom command-line interface tool engineered purely in Go from scratch to parse banner configurations and calculate terminal character alignments.
-
----
-
-## 💻 Elite Verified Technology Stack
-*   **Languages:** Go (Golang), Rust, Python, JavaScript, TypeScript, HTML5 / CSS3.
-*   **Backends & APIs:** FastAPI, Gin-Gonic, REST Web APIs, gRPC, WebSockets, Node.js.
-*   **Data & Caching:** PostgreSQL (Neon / Supabase), Redis Cache-Aside, GORM ORM.
-*   **AI/ML & Graphics:** RAG Pipelines, Agents Orchestration, Blender Headless Render, Three.js.
-
----
-
-## 🤝 Connect & Collaborate
-I am actively open to discussing high-scale backend engineering contributions, AI system development pipelines, and performance-critical systems. 
-
-Reach out via **[contact@asobuilds.com](mailto:contact@asobuilds.com)** or **[LinkedIn](https://linkedin.com)**.
+* **Operational Scope:** Voice-first creative runtime environment converting spoken natural language into live render spaces.
+* **Stack:** Node.js WebSockets · React 19 Canvas · Headless Blender 4.2 Scripting Pipeline · Multi-Provider LLM Fallback
+* **Core Win:** Developed an automated structural scene builder capable of generating compiled, illuminated 3D objects and environments within 5 to 15 seconds.
+* **Explore Infrastructure:** [9jaWonderPal Repository](https://github.com)
 
 <p align="center">
-  <img src="https://vercel.app" width="100%" alt="Footer Banner" />
+  <img src="assets/svg/divider.svg" width="100%" />
+</p>
+
+## 🛠️ Secondary Core Foundations & Fellowship Architectures
+
+* **9ja Exam Hub:** Adaptive educational analysis application catering targeted curriculum content specifically designed for low-bandwidth environments.
+* **L2E CodeStudy Platform:** Interactive evaluation environment featuring isolated runtime testing tools built using clean Piston integration hooks.
+* **ASCII Art Engine:** Command-line formatting workspace written entirely from scratch in Go to map terminal parameters manually.
+
+---
+
+## 💻 Technical Mastery & Production Environments
+
+```json
+{
+  "systems_programming": ["Go (Golang)", "Rust", "Python", "TypeScript"],
+  "infrastructure_apis": ["FastAPI", "Gin-Gonic", "WebSockets", "gRPC", "REST"],
+  "data_persistence":    ["PostgreSQL", "Redis Cache-Aside", "Supabase", "Neon"],
+  "agentic_graphics":    ["Headless Blender API", "Three.js Canvas", "RAG Systems"]
+}
+```
+
+---
+
+## 🤝 Connect & Network
+
+I am open to technical dialogues regarding high-performance distributed systems, AI integrations, or custom systems consulting.
+
+* **Direct Terminal Email:** [contact@asobuilds.com](mailto:contact@asobuilds.com)
+* **Professional Network:** [LinkedIn Interface](https://linkedin.com)
+
+<!-- FLAGSHIP ARCHITECTURE FOOTER -->
+<p align="center">
+  <img src="assets/svg/footer.svg" width="100%" alt="Engineered to Scale" />
 </p>
