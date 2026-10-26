@@ -1,292 +1,77 @@
-<div align="center">
+<p align="center">
+  <img src="https://vercel.app" width="100%" alt="Agene Sunday Okoh Portfolio Banner" />
+</p>
 
-![ASO BUILDS Hero](./assets/svg/hero.svg)
+<p align="center">
+  <a href="https://linkedin.com" target="_blank"><img src="https://shields.io" alt="LinkedIn" /></a>
+  <a href="https://github.com" target="_blank"><img src="https://shields.io" alt="GitHub" /></a>
+  <a href="mailto:contact@asobuilds.com"><img src="https://shields.io" alt="Email" /></a>
+</p>
 
-</div>
-<br/>
+---
 
-<div align="center">
-    
-![Profile Views](https://komarev.com/ghpvc/?username=asobuilds&color=brightgreen)
+## ⚡ Executive Summary: > whoami
 
-</div>
-<br/>
+* **Name:** Agene Sunday Okoh
+* **Role:** AI-Native Software Programmer & Solutions Architect
+* **Focus:** Distributed Systems · Autonomous Agent Pipelines · High-Performance Backends
+* **Philosophy:** Build resilient architecture that yields massive real-world operational leverage.
+* **Location:** Abuja, Nigeria 🇳🇬
 
-<div align="center">
+---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=10B981)](https://www.linkedin.com/in/agene-sunday-4b35702aa)
-[![X](https://img.shields.io/badge/X-0F172A?style=for-the-badge&logo=x&logoColor=F43F5E)](https://x.com/Asobuilds)
-[![GitHub](https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=94A3B8)](https://github.com/Asobuilds)
+## 🛡️ Flagship Project Spotlight: Nativity Guard
+> **Enterprise-Grade Civic Safety Infrastructure for Rural Communities**
+> **Core Architecture:** Go (Gin-Gonic) · Redis Cache-Aside · PostgreSQL (GORM) · React 19 & TypeScript · Docker Compose · OSRM Routing Integration
 
-</div>
+<p align="left">
+  <a href="https://github.com/nativity-guard.git" target="_blank"><img src="https://shields.io" alt="Nativity Guard Repo" /></a>
+</p>
 
-<br/>
+### 🚀 Key Engineering & Infrastructure Milestone Wins
+*   **Media Duplication Avoidance Pipeline:** Implemented an optimized, content-addressed storage layout. Identical voice/video uploads auto-deduplicate via SHA-256 asset hashing, guarded by reference-counting garbage collection to optimize server storage footprint.
+*   **Tamper-Proof Geo-Scoping:** Built an un-spoofable location system where place levels are strictly server-derived via reverse-geocoding coordinates. Client-supplied place strings are rejected, guaranteeing air-tight geospatial integrity.
+*   **High-Volume Real-Time Flow:** Engineered real-time emergency alert dispatches using web push notifications (VAPID webpush-go) combined with a Redis-backed fallback cache layout for rapid server responses on low-bandwidth networks.
+*   **Encrypted Financial Ledgers:** Integrated military-grade AES-GCM data encryption for community ledger bank account routing metadata, matching strict digital banking compliance.
 
-![Divider](./assets/svg/divider.svg)
+---
 
-<br/>
+## 🌌 Commercial Client Deployments & Creative Studios
 
-### `> whoami`
+### 💰 SAGZFX Academy Digital Platform
+*   **Description:** Fully production-grade web ecosystem shipped for a commercial client campus (RC 8064497).
+*   **Tech Stack:** FastAPI (Python 3.12) · Next.js 16 (TypeScript) · Serverless Neon PostgreSQL · Paystack API.
+*   **Engineering Highlight:** Designed a custom financial transaction parser featuring a $10,000 virtual FX practice simulator with ledger-audited state balance tracking, alongside a secure live Paystack webhook ingestion pipeline.
+*   **Explore:** [SAGZFX Platform Repository](https://github.com/sagzfx-academy-platform.git)
 
-```go
-package main
+### 🎨 9jaWonderPal (My Creative Partner)
+*   **Description:** A voice-first, interactive creative installation allowing children to voice-prompt concepts into walking 3D worlds.
+*   **Tech Stack:** Node.js WebSocket Server · React (Vite) · Three.js Canvas · Headless Blender 4.2 Rendering Engine.
+*   **Engineering Highlight:** Solved multi-tier LLM failover infrastructure patterns (Groq to OpenRouter) coupled with automated local Blender scripting to compile and stream out full 3D lighting scenes within 5 to 15 seconds.
+*   **Explore:** [9jaWonderPal Repository](https://github.com/my-creative-partner.git)
 
-type Engineer struct {
-    Name         string
-    Role         string
-    Location     string
-    Languages    []string
-    Focus        string
-    Philosophy   string
-}
+---
 
-func main() {
-    me := Engineer{
-        Name:      "Agene Sunday Okoh",
-        Role:      "Software Programmer · AI Native · Solution Builder",
-        Location:  "Abuja, Nigeria 🇳🇬",
-        Languages: []string{"Go", "Rust", "Python", "JavaScript", "HTML", "CSS"},
-        Focus:     "AI/ML Engineering · Autonomous Systems · Open Source",
-        Philosophy: "Build systems that create leverage. Ship things that matter.",
-    }
+## 🛠️ Fellowship Engines & Secondary Implementations
+*   **9ja Exam Hub:** AI-driven adaptive exam testing environment mapped explicitly against the standardized Nigerian academic syllabus and engineered to balance low-bandwidth client queries.
+*   **L2E CodeStudy Platform:** In-browser compilation engine incorporating safe sandbox code executions via external Piston API gateways for peer fellows.
+*   **ASCII Art System Engine:** A native custom command-line interface tool engineered purely in Go from scratch to parse banner configurations and calculate terminal character alignments.
 
-    me.Build()
-}
-```
+---
 
-<br/>
+## 💻 Elite Verified Technology Stack
+*   **Languages:** Go (Golang), Rust, Python, JavaScript, TypeScript, HTML5 / CSS3.
+*   **Backends & APIs:** FastAPI, Gin-Gonic, REST Web APIs, gRPC, WebSockets, Node.js.
+*   **Data & Caching:** PostgreSQL (Neon / Supabase), Redis Cache-Aside, GORM ORM.
+*   **AI/ML & Graphics:** RAG Pipelines, Agents Orchestration, Blender Headless Render, Three.js.
 
-![Divider](./assets/svg/divider.svg)
+---
 
-<br/>
+## 🤝 Connect & Collaborate
+I am actively open to discussing high-scale backend engineering contributions, AI system development pipelines, and performance-critical systems. 
 
-### `> cat current_focus.md`
+Reach out via **[contact@asobuilds.com](mailto:contact@asobuilds.com)** or **[LinkedIn](https://linkedin.com)**.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### What I'm Building
-
-- **AI/ML systems**: autonomous agents, inference pipelines, intelligent tooling
-- **Go backends**: performant, concurrent, production-grade services
-- **9ja Exam Hub**: AI-powered exam preparation platform for Nigerian students
-- Exploring **Rust** for systems-level performance engineering
-
-</td>
-<td width="50%" valign="top">
-
-### What I'm Learning
-
-- Large Language Model architecture and fine-tuning
-- Retrieval-Augmented Generation (RAG) patterns
-- Distributed systems design in Go
-- WebAssembly with Rust
-- AI agent orchestration frameworks
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-![Divider](./assets/svg/divider.svg)
-
-<br/>
-
-### `> ls -la philosophy/`
-
-> *I believe software should create real leverage  one engineer, one system, multiplied impact. I write code that is maintainable before it is clever, observable before it is fast, and useful before it is elegant. I build in the open because the best ideas survive scrutiny.*
-
-<br/>
-
-| Principle | Practice |
-|---|---|
-| **Simplicity** | If it needs a long explanation, redesign it |
-| **Observability** | A system you can't see is a system you can't fix |
-| **Composability** | Small, focused modules that combine cleanly |
-| **Ownership** | Ship it, monitor it, improve it |
-| **Community** | Open source is how we compound knowledge |
-
-<br/>
-
-![Divider](./assets/svg/divider.svg)
-
-<br/>
-
-### `> ls projects/featured/`
-
-<br/>
-
-<table>
-<tr>
-<td width="100%" valign="top">
-
-### 9ja Exam Hub
-
-> AI-powered exam preparation platform built for Nigerian students and institutions.
-
-**Architecture**: Go backend · REST API · AI inference layer · Web frontend
-
-**Stack**: `Go` `Python` `HTML` `CSS` `JavaScript`
-
-**What it does**
-- Serves intelligent, adaptive practice questions
-- Tracks student performance over time
-- Built specifically for the Nigerian curriculum and exam formats
-- Designed to be accessible on low-bandwidth connections
-
-**Engineering Challenge**: Building an AI inference pipeline that performs reliably on constrained infrastructure, serving users across Nigeria where connectivity is inconsistent.
-
-**Status** : `Active Development`
-
-[![View Repo](https://img.shields.io/badge/View_Repository-0F172A?style=flat-square&logo=github&logoColor=10B981)]([https://github.com/Asobuilds](https://github.com/asobuilds/naijaExam_hub))
-
-</td>
-</tr>
-
-<tr><td><br/></td></tr>
-
-<tr>
-<td width="100%" valign="top">
-
-### L2E CodeStudy Platform
-
-> Community learning platform built for the Learn2Earn Nigeria Fellowship, serving student developers across campuses.
-
-**Architecture**: Go web server · Static asset serving · Piston API integration · REST
-
-**Stack**: `Go` `HTML` `CSS` `JavaScript`
-
-**What it does**
-- Four progressive learning stages with randomized questions
-- Real Go code execution via Piston API (live, in-browser)
-- Hint systems, progress tracking, confetti rewards
-- Dark-mode dashboard with persistent theme preference
-
-**Engineering Challenge**: Designing a real code-execution sandbox that is safe, fast, and accessible to student developers with no backend experience.
-
-**Lesson Learned**: Product thinking matters as much as engineering. The confetti and progress bars weren't decoration they drove completion rates up significantly.
-
-[![View Repo](https://img.shields.io/badge/View_Repository-0F172A?style=flat-square&logo=github&logoColor=10B981)](https://github.com/asobuilds/l2e-codestudy-platform)
-
-</td>
-</tr>
-
-<tr><td><br/></td></tr>
-
-<tr>
-<td width="100%" valign="top">
-
-### ASCII Art Engine
-
-> Full CLI tool for rendering styled ASCII art from text built from scratch without external art libraries.
-
-**Architecture**: Go module · Internal package structure · Banner file parsing · ANSI terminal output
-
-**Stack**: `Go`
-
-**What it does**
-- Renders text into styled ASCII art using bitmap font banner files
-- `--output=<file>` flag for writing to disk via `io.Writer`
-- `--color=<color>` ANSI highlighting with per-character position control
-- `--align=<type>` terminal alignment with ANSI-aware visible width calculation
-- Full test suite per function
-
-**Engineering Detail**: The banner lookup formula `(asciiValue - 32) * 9 + 1` encodes the entire character map. Getting row-by-row rendering and ANSI-stripped width calculations right required careful systems thinking.
-
-[![View Repo](https://img.shields.io/badge/View_Repository-0F172A?style=flat-square&logo=github&logoColor=10B981)](https://github.com/asobuilds/Ascii-Art)
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-![Divider](./assets/svg/divider.svg)
-
-<br/>
-
-### `> cat stack.json`
-
-<br/>
-
-**Languages**
-
-![Go](https://img.shields.io/badge/Go-0F172A?style=for-the-badge&logo=go&logoColor=10B981)
-![Rust](https://img.shields.io/badge/Rust-0F172A?style=for-the-badge&logo=rust&logoColor=F43F5E)
-![Python](https://img.shields.io/badge/Python-0F172A?style=for-the-badge&logo=python&logoColor=6366F1)
-![JavaScript](https://img.shields.io/badge/JavaScript-0F172A?style=for-the-badge&logo=javascript&logoColor=F59E0B)
-![HTML5](https://img.shields.io/badge/HTML5-0F172A?style=for-the-badge&logo=html5&logoColor=F43F5E)
-![CSS3](https://img.shields.io/badge/CSS3-0F172A?style=for-the-badge&logo=css3&logoColor=6366F1)
-
-<br/>
-
-**AI / ML**
-
-![LLMs](https://img.shields.io/badge/LLMs-0F172A?style=for-the-badge&logo=openai&logoColor=10B981)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-0F172A?style=for-the-badge&logo=databricks&logoColor=F43F5E)
-![Agents](https://img.shields.io/badge/AI_Agents-0F172A?style=for-the-badge&logo=probot&logoColor=6366F1)
-
-<br/>
-
-**Tools & Environment**
-
-![Linux](https://img.shields.io/badge/Linux-0F172A?style=for-the-badge&logo=linux&logoColor=10B981)
-![VS Code](https://img.shields.io/badge/VS_Code-0F172A?style=for-the-badge&logo=visualstudiocode&logoColor=6366F1)
-![Git](https://img.shields.io/badge/Git-0F172A?style=for-the-badge&logo=git&logoColor=F43F5E)
-![GitHub](https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=94A3B8)
-
-<br/>
-
-![Divider](./assets/svg/divider.svg)
-
-<br/>
-
-### `> ./stats --profile`
-
-<br/>
-
-<h3 align="center">GitHub Stats & Streak</h3>
-<br/>
-<div align="center">
-  <img height="165px" src="https://github-readme-streak-stats.herokuapp.com/?user=Asobuilds&theme=radical&hide_border=true&background=0D1117&ring=10B981&fire=F43F5E&currStreakLabel=10B981" />
-</div>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Asobuilds&show_icons=true&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=F43F5E&text_color=94A3B8&border_radius=14" width="48%" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asobuilds&layout=compact&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=94A3B8&border_radius=14" width="38%" alt="Top Languages"/>
-</div>
-
-<br/>
-
-![Divider](./assets/svg/divider.svg)
-
-<br/>
-
-### `> contact --open`
-
-<div align="center">
-
-I'm open to conversations about **AI/ML engineering roles**, **Go/Rust contributions**, and **African tech ecosystem** projects.
-
-<br/>
-
-[![Send Email](https://img.shields.io/badge/Email_Me-0F172A?style=for-the-badge&logo=gmail&logoColor=F43F5E)](mailto:agenesunday143@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=10B981)](https://www.linkedin.com/in/agene-sunday-4b35702aa)
-[![X / Twitter](https://img.shields.io/badge/X_(Twitter)-0F172A?style=for-the-badge&logo=x&logoColor=94A3B8)](https://x.com/Asobuilds)
-
-<br/>
-
-*Response time: usually within 48 hours.*
-
-</div>
-
-<br/>
-
-![Footer](./assets/svg/footer.svg)
-
-<!--
-  ASO BUILDS · github.com/Asobuilds
-  Software Programmer · AI Native · Solution Builder
-  Built with intention. Maintained with discipline.
--->
+<p align="center">
+  <img src="https://vercel.app" width="100%" alt="Footer Banner" />
+</p>
