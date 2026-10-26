@@ -1,28 +1,34 @@
-<!-- FLAGSHIP ARCHITECTURE HEADER -->
 <p align="center">
-  <img src="assets/svg/hero.svg" width="100%" alt="Agene Sunday Okoh // Systems Architect" />
+  <img src="assets/svg/header.svg" alt="Agene Sunday Okoh — AI-Native Full-Stack Solutions Engineer" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com" target="_blank"><img src="https://shields.io" height="24" /></a>&nbsp;
-  <a href="https://github.com" target="_blank"><img src="https://shields.io" height="24" /></a>&nbsp;
-  <a href="mailto:contact@asobuilds.com"><img src="https://shields.io" height="24" /></a>&nbsp;
-  <a href="https://github.com/asobuilds/blob/main/Agene_Sunday_Okoh_Resume.pdf" target="_blank"><img src="https://shields.io" height="24" /></a>
+  <img src="https://img.shields.io/badge/Go-0B1220?style=for-the-badge&logo=go&logoColor=2DD4BF" alt="Go" />
+  <img src="https://img.shields.io/badge/Rust-0B1220?style=for-the-badge&logo=rust&logoColor=2DD4BF" alt="Rust" />
+  <img src="https://img.shields.io/badge/Python-0B1220?style=for-the-badge&logo=python&logoColor=2DD4BF" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-0B1220?style=for-the-badge&logo=typescript&logoColor=2DD4BF" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Docker-0B1220?style=for-the-badge&logo=docker&logoColor=2DD4BF" alt="Docker" />
+  <img src="https://img.shields.io/badge/Redis-0B1220?style=for-the-badge&logo=redis&logoColor=2DD4BF" alt="Redis" />
 </p>
 
----
-
-### ⚡ Executive Terminal: > whoami
+## 👋 About Me
 
 ```go
 package main
 
+import "fmt"
+
 type SolutionsArchitect struct {
-	Name        string   `json:"name"`
-	Role        string   `json:"role"`
-	Location    string   `json:"location"`
-	EngineStack []string `json:"engines"`
-	Philosophy  string   `json:"philosophy"`
+	Name        string
+	Role        string
+	Location    string
+	EngineStack []string
+	Philosophy  string
+}
+
+func (s SolutionsArchitect) Deploy() {
+	fmt.Printf("%s | %s | %s\n", s.Name, s.Role, s.Location)
+	fmt.Println(s.Philosophy)
 }
 
 func main() {
@@ -38,91 +44,37 @@ func main() {
 ```
 
 <p align="center">
-  <img src="assets/svg/divider.svg" width="100%" />
+  <img src="assets/svg/divider.svg" width="100%" alt="" />
 </p>
 
-## 🛡️ Flagship Project Matrix: Nativity Guard
-> **Enterprise Civic Safety Infrastructure for Constrained Networks**
+## 🛡️ Flagship Project: Nativity Guard
 
-Use code with caution.
-[ Citizen SOS Client ] ➔ ➔ ( SHA-256 Content-Addressed Chunking )
-│
-┌──────────────────────────────┴──────────────────────────────┐
-▼ ( Low-Bandwidth Optimizations )                              ▼ ( Strict Compliance )
-[ Redis Cache-Aside ]                                      [ Server-Derived Geocoder ]
-• Scoped Community Feeds                                   - Enforces 5-tier Hierarchy
-• VAPID Web Push Alerts                                    - Rejects Spatially Spoofed Strings
-│                                                             │
-└──────────────────────────────┬──────────────────────────────┘
-▼
-[ PostgreSQL / GORM Engine ]
-- Multi-Admin Case Approvals
-- AES-GCM Financial Encryption
+> **Enterprise civic safety infrastructure for constrained networks**
 
-| Core Engine | Sub-System Focus | Production Milestones |
-| :--- | :--- | :--- |
-| **Go / Gin Backend** | Content-Addressed Media Pipeline | Automated SHA-256 asset hashing prevents duplicate file streams and optimizes remote bucket storage using reference-counted structural cleanup. |
-| **Redis Caching** | Low-Bandwidth Edge Resilience | Configured cache-aside layouts for high-volume geo-scoped feeds to ensure rapid client processing states on slow local networks. |
-| **PostgreSQL / GORM** | Multi-Tier Audit & Governance | Implemented a tamper-proof case lifecycle state machine (`pending` ➔ `closed`) with 12-month staggered election rotation algorithms. |
-| **Security Architecture** | Cryptographic Isolation | Embedded secure military-grade AES-GCM data encryption for banking ledger payloads alongside rigorous reverse-geocoding validation rules. |
+<!-- Add 3–5 real bullets here: what it does, the stack, and its current status. -->
 
-<p align="left">
-  <a href="https://github.com" target="_blank">
-    <img src="https://shields.io" height="35" />
-  </a>
+| | |
+|---|---|
+| **Focus** | Civic safety on low-bandwidth, unreliable networks |
+| **Stack** | Go · Redis · Docker |
+| **Repo** | [github.com/asobuilds](https://github.com/asobuilds) |
+
+<p align="center">
+  <img src="assets/svg/divider.svg" width="100%" alt="" />
+</p>
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=asobuilds&show_icons=true&hide_border=true&bg_color=0B1220&title_color=2DD4BF&icon_color=818CF8&text_color=CBD5E1" />
+  <img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asobuilds&layout=compact&hide_border=true&bg_color=0B1220&title_color=2DD4BF&text_color=CBD5E1" />
 </p>
 
 <p align="center">
-  <img src="assets/svg/divider.svg" width="100%" />
+  <img src="assets/svg/divider.svg" width="100%" alt="" />
 </p>
 
-## 🌌 Commercial Client Deployments & Creative Studios
-
-### 💰 SAGZFX Academy Digital Platform
-* `SCOPE:` Enterprise portal for an active financial trading campus **(RC 8064497)**.
-* `STACK:` FastAPI (Python 3.12) · Next.js 16 (TypeScript) · Serverless Neon PostgreSQL · Paystack API Ingestion
-* `METRIC:` Engineered an isolated, ledger-audited $10,000 virtual foreign exchange mock trading simulator running atop concurrent secure transactional balancing states.
-* `EXPLORE:` [SAGZFX Platform Repository](https://github.com)
-
-### 🎨 9jaWonderPal (My Creative Partner)
-* `SCOPE:` Voice-first creative runtime environment converting spoken natural language into live render spaces.
-* `STACK:` Node.js WebSockets · React 19 Canvas · Headless Blender 4.2 Scripting Pipeline · Multi-Provider LLM Fallback
-* `METRIC:` Developed an automated structural scene builder capable of generating compiled, illuminated 3D objects and environments within 5 to 15 seconds.
-* `EXPLORE:` [9jaWonderPal Repository](https://github.com)
-
 <p align="center">
-  <img src="assets/svg/divider.svg" width="100%" />
-</p>
-
-## 🛠️ Secondary Core Foundations & Fellowship Architectures
-
-* `9ja Exam Hub` — Adaptive educational analysis application catering targeted curriculum content specifically designed for low-bandwidth environments.
-* `L2E CodeStudy Platform` — Interactive evaluation environment featuring isolated runtime testing tools built using clean Piston integration hooks.
-* `ASCII Art Engine` — Command-line formatting workspace written entirely from scratch in Go to map terminal parameters manually.
-
----
-
-## 💻 Technical Mastery & Production Environments
-
-```json
-{
-  "systems_programming": ["Go (Golang)", "Rust", "Python", "TypeScript"],
-  "infrastructure_apis": ["FastAPI", "Gin-Gonic", "WebSockets", "gRPC", "REST"],
-  "data_persistence":    ["PostgreSQL", "Redis Cache-Aside", "Supabase", "Neon"],
-  "agentic_graphics":    ["Headless Blender API", "Three.js Canvas", "RAG Systems"]
-}
-```
-
----
-
-## 🤝 Connect & Network
-
-I am open to technical dialogues regarding high-performance distributed systems, AI integrations, or custom systems consulting.
-
-* **Direct Terminal Email:** [contact@asobuilds.com](mailto:contact@asobuilds.com)
-* **Professional Network:** [LinkedIn Interface](https://linkedin.com)
-
-<!-- FLAGSHIP ARCHITECTURE FOOTER -->
-<p align="center">
-  <img src="assets/svg/footer.svg" width="100%" alt="Engineered to Scale" />
+  <a href="https://github.com/asobuilds"><img src="https://img.shields.io/badge/GitHub-asobuilds-0B1220?style=for-the-badge&logo=github&logoColor=2DD4BF" alt="GitHub" /></a>
+  <a href="mailto:agenesunday143@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-0B1220?style=for-the-badge&logo=gmail&logoColor=818CF8" alt="Email" /></a>
 </p>
